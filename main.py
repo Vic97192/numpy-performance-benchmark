@@ -1,4 +1,5 @@
 # h = x * y
+
 import numpy as np
 import time
 
@@ -7,9 +8,10 @@ f = open("array_data.txt",'r',encoding="utf-8")
 flist = 0 # 這是讀出來的資料。要修改並刪減
 x,y = [],[]
 
-for i in range(len(flist)-4): #想想為什麼是len(flist)-4。也可以用自己的寫法
+for i in range(0,0,0): # TODO: 修改range()
+    for j in range(0): # TODO: 修改range()
     # TODO: 把屬於x和屬於y的分別加進x和y
-    pass #寫完把這行刪掉
+        pass #寫完把這行刪掉
 
 h = []
 
