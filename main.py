@@ -15,7 +15,6 @@ for i in range(0,len(flist)-4,8):
         x.append(flist[i + j])
         y.append(flist[i +(j+4)])
 
-'/Users/viclee/Downloads/CompOrg_5_Large and Fast-Exploiting Memory Hierarchy.pdf'
 h = []
 j = 0
 before = time.time()
